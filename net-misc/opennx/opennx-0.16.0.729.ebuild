@@ -14,7 +14,8 @@ KEYWORDS="~arm ~amd64 ~x86"
 IUSE=""
 
 DEPEND="x11-libs/wxGTK"
-RDEPEND="${DEPEND}"
+RDEPEND="${DEPEND}
+		net-misc/nxssh"
 
 src_unpack() {
     unpack ${A}
